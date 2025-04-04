@@ -31,7 +31,7 @@ class Niveau1 extends Phaser.Scene {
 
     create() {
         this.add.image(400, 200, 'bg').setScrollFactor(1, 0);
-        this.vies = 3;
+        this.vies = 4;
         this.startTime = this.time.now;
 
         this.platforms = this.physics.add.staticGroup();
